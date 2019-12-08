@@ -12,6 +12,8 @@
     <artifactId>helloWorld</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
+    //Properties -- indica la version de java para maven tanto del src como del target
     <properties>
         <java.version>11</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
