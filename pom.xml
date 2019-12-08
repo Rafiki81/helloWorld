@@ -4,16 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    //Coordenadas de Maven
-    //groupId -- generalmente es la url de tu projecto al reves
-    //artifactId -- Hace referencia al projecto en si
-    //vesion -- hace referencia a la version
+
     <groupId>com.rafiki</groupId>
     <artifactId>helloWorld</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
-    //Properties -- indica la version de java para maven tanto del src como del target
     <properties>
         <java.version>11</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
